@@ -1,0 +1,237 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The target system is: Dreamcast - 1 - SH4
+      The host system is: Linux - 6.11.3-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/toolchains/dc/kos/utils/build_wrappers/kos-cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/cyp/Documents/GitHub/ChaogenDC/build/CMakeFiles/3.30.5/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/cyp/Documents/GitHub/ChaogenDC/build/CMakeFiles/CMakeScratch/TryCompile-0q5GXp"
+      binary: "/home/cyp/Documents/GitHub/ChaogenDC/build/CMakeFiles/CMakeScratch/TryCompile-0q5GXp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/toolchains/dc/kos/utils/cmake"
+      CMAKE_SYSROOT: "/opt/toolchains/dc/kos/../kos-ports"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cyp/Documents/GitHub/ChaogenDC/build/CMakeFiles/CMakeScratch/TryCompile-0q5GXp'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_b3d9d
+        [1/2] /opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports   -v -o CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/toolchains/dc/sh-elf/bin/sh-elf-gcc
+        Target: sh-elf
+        Configured with: ../gcc-14.2.0/configure --target=sh-elf --prefix=/opt/toolchains/dc/sh-elf --with-gnu-as --with-gnu-ld --with-newlib --disable-libssp --enable-threads=kos --enable-languages=c,c++,objc,obj-c++ --enable-checking=release --with-multilib-list=m4-single-only,m4-single --with-endian=little --with-cpu=m4-single-only MAKEINFO=missing CC=cc CXX=g++
+        Thread model: kos
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-O2' '-fomit-frame-pointer' '-fno-builtin' '-m4-single-only' '-ml' '-ffunction-sections' '-fdata-sections' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-Wall' '-g' '--sysroot=/opt/toolchains/dc/kos/../kos-ports' '-v' '-o' 'CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_b3d9d.dir/'
+         /opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/cc1 -quiet -v -I /opt/toolchains/dc/kos/include -I /opt/toolchains/dc/kos/kernel/arch/dreamcast/include -I /opt/toolchains/dc/kos/addons/include -I /opt/toolchains/dc/kos/../kos-ports/include -isysroot /opt/toolchains/dc/kos/../kos-ports -D __DREAMCAST__ -D _arch_dreamcast -D _arch_sub_pristine /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b3d9d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m4-single-only -ml -matomic-model=soft-imask -g -O2 -Wall -version -fomit-frame-pointer -fno-builtin -ffunction-sections -fdata-sections -ftls-model=local-exec -o /tmp/ccCb0pN8.s
+        GNU C17 (GCC) version 14.2.0 (sh-elf)
+        	compiled by GNU C version 14.2.1 20240910, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/toolchains/dc/kos/include
+         /opt/toolchains/dc/kos/kernel/arch/dreamcast/include
+         /opt/toolchains/dc/kos/addons/include
+         /opt/toolchains/dc/kos/../kos-ports/include
+         /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include
+         /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include-fixed
+         /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/include
+        End of search list.
+        Compiler executable checksum: 532c93dd2972f8bfa57f7a2e77142e14
+        COLLECT_GCC_OPTIONS='-O2' '-fomit-frame-pointer' '-fno-builtin' '-m4-single-only' '-ml' '-ffunction-sections' '-fdata-sections' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-Wall' '-g' '--sysroot=/opt/toolchains/dc/kos/../kos-ports' '-v' '-o' 'CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_b3d9d.dir/'
+         /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/bin/as -v -I /opt/toolchains/dc/kos/include -I /opt/toolchains/dc/kos/kernel/arch/dreamcast/include -I /opt/toolchains/dc/kos/addons/include -I /opt/toolchains/dc/kos/../kos-ports/include -little --isa=sh4a -o CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj /tmp/ccCb0pN8.s
+        GNU assembler version 2.43 (sh-elf) using BFD version (GNU Binutils) 2.43
+        COMPILER_PATH=/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/bin/
+        LIBRARY_PATH=/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/lib/
+        COLLECT_GCC_OPTIONS='-O2' '-fomit-frame-pointer' '-fno-builtin' '-m4-single-only' '-ml' '-ffunction-sections' '-fdata-sections' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-Wall' '-g' '--sysroot=/opt/toolchains/dc/kos/../kos-ports' '-v' '-o' 'CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports  -v CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj -o cmTC_b3d9d.elf   && :
+        Using built-in specs.
+        COLLECT_GCC=/opt/toolchains/dc/sh-elf/bin/sh-elf-gcc
+        COLLECT_LTO_WRAPPER=/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/lto-wrapper
+        Target: sh-elf
+        Configured with: ../gcc-14.2.0/configure --target=sh-elf --prefix=/opt/toolchains/dc/sh-elf --with-gnu-as --with-gnu-ld --with-newlib --disable-libssp --enable-threads=kos --enable-languages=c,c++,objc,obj-c++ --enable-checking=release --with-multilib-list=m4-single-only,m4-single --with-endian=little --with-cpu=m4-single-only MAKEINFO=missing CC=cc CXX=g++
+        Thread model: kos
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (GCC) 
+        COMPILER_PATH=/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/bin/
+        LIBRARY_PATH=/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/lib/
+        COLLECT_GCC_OPTIONS='-O2' '-m4-single-only' '-ml' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-g' '-O2' '-fomit-frame-pointer' '-fno-builtin' '-m4-single-only' '-ml' '-ffunction-sections' '-fdata-sections' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-Wall' '-g' '-m4-single-only' '-ml' '-T' '/opt/toolchains/dc/kos/utils/ldscripts/shlelf.xc' '-nodefaultlibs' '-L/opt/toolchains/dc/kos/lib/dreamcast' '-L/opt/toolchains/dc/kos/addons/lib/dreamcast' '-L/opt/toolchains/dc/kos/../kos-ports/lib' '--sysroot=/opt/toolchains/dc/kos/../kos-ports' '-v' '-o' 'cmTC_b3d9d.elf' '-dumpdir' 'cmTC_b3d9d.elf.'
+         /opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/collect2 -plugin /opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/liblto_plugin.so -plugin-opt=/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFInkhr.res --sysroot=/opt/toolchains/dc/kos/../kos-ports/m4-single-only -m shlelf -o cmTC_b3d9d.elf /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crt1.o /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crti.o /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtbegin.o -L/opt/toolchains/dc/kos/lib/dreamcast -L/opt/toolchains/dc/kos/addons/lib/dreamcast -L/opt/toolchains/dc/kos/../kos-ports/lib -L/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0 -L/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/lib -Ttext=0x8c010000 --gc-sections CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj --start-group -lkallisti -lm -lc -lgcc --end-group /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtend.o /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtn.o -T /opt/toolchains/dc/kos/utils/ldscripts/shlelf.xc
+        COLLECT_GCC_OPTIONS='-O2' '-m4-single-only' '-ml' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-g' '-O2' '-fomit-frame-pointer' '-fno-builtin' '-m4-single-only' '-ml' '-ffunction-sections' '-fdata-sections' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-Wall' '-g' '-m4-single-only' '-ml' '-T' '/opt/toolchains/dc/kos/utils/ldscripts/shlelf.xc' '-nodefaultlibs' '-L/opt/toolchains/dc/kos/lib/dreamcast' '-L/opt/toolchains/dc/kos/addons/lib/dreamcast' '-L/opt/toolchains/dc/kos/../kos-ports/lib' '--sysroot=/opt/toolchains/dc/kos/../kos-ports' '-v' '-o' 'cmTC_b3d9d.elf' '-dumpdir' 'cmTC_b3d9d.elf.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/toolchains/dc/kos/include]
+          add: [/opt/toolchains/dc/kos/kernel/arch/dreamcast/include]
+          add: [/opt/toolchains/dc/kos/addons/include]
+          add: [/opt/toolchains/dc/kos/../kos-ports/include]
+          add: [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include]
+          add: [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include-fixed]
+          add: [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/include]
+        end of search list found
+        collapse include dir [/opt/toolchains/dc/kos/include] ==> [/opt/toolchains/dc/kos/include]
+        collapse include dir [/opt/toolchains/dc/kos/kernel/arch/dreamcast/include] ==> [/opt/toolchains/dc/kos/kernel/arch/dreamcast/include]
+        collapse include dir [/opt/toolchains/dc/kos/addons/include] ==> [/opt/toolchains/dc/kos/addons/include]
+        collapse include dir [/opt/toolchains/dc/kos/../kos-ports/include] ==> [/opt/toolchains/dc/kos-ports/include]
+        collapse include dir [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include] ==> [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include]
+        collapse include dir [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include-fixed] ==> [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include-fixed]
+        collapse include dir [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/include] ==> [/opt/toolchains/dc/sh-elf/sh-elf/include]
+        implicit include dirs: [/opt/toolchains/dc/kos/include;/opt/toolchains/dc/kos/kernel/arch/dreamcast/include;/opt/toolchains/dc/kos/addons/include;/opt/toolchains/dc/kos-ports/include;/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include;/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include-fixed;/opt/toolchains/dc/sh-elf/sh-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/cyp/Documents/GitHub/ChaogenDC/build/CMakeFiles/CMakeScratch/TryCompile-0q5GXp']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_b3d9d]
+        ignore line: [[1/2] /opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports   -v -o CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/toolchains/dc/sh-elf/bin/sh-elf-gcc]
+        ignore line: [Target: sh-elf]
+        ignore line: [Configured with: ../gcc-14.2.0/configure --target=sh-elf --prefix=/opt/toolchains/dc/sh-elf --with-gnu-as --with-gnu-ld --with-newlib --disable-libssp --enable-threads=kos --enable-languages=c,c++,objc,obj-c++ --enable-checking=release --with-multilib-list=m4-single-only,m4-single --with-endian=little --with-cpu=m4-single-only MAKEINFO=missing CC=cc CXX=g++]
+        ignore line: [Thread model: kos]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-O2' '-fomit-frame-pointer' '-fno-builtin' '-m4-single-only' '-ml' '-ffunction-sections' '-fdata-sections' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-Wall' '-g' '--sysroot=/opt/toolchains/dc/kos/../kos-ports' '-v' '-o' 'CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_b3d9d.dir/']
+        ignore line: [ /opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/cc1 -quiet -v -I /opt/toolchains/dc/kos/include -I /opt/toolchains/dc/kos/kernel/arch/dreamcast/include -I /opt/toolchains/dc/kos/addons/include -I /opt/toolchains/dc/kos/../kos-ports/include -isysroot /opt/toolchains/dc/kos/../kos-ports -D __DREAMCAST__ -D _arch_dreamcast -D _arch_sub_pristine /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b3d9d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m4-single-only -ml -matomic-model=soft-imask -g -O2 -Wall -version -fomit-frame-pointer -fno-builtin -ffunction-sections -fdata-sections -ftls-model=local-exec -o /tmp/ccCb0pN8.s]
+        ignore line: [GNU C17 (GCC) version 14.2.0 (sh-elf)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240910  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/sys-include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/toolchains/dc/kos/include]
+        ignore line: [ /opt/toolchains/dc/kos/kernel/arch/dreamcast/include]
+        ignore line: [ /opt/toolchains/dc/kos/addons/include]
+        ignore line: [ /opt/toolchains/dc/kos/../kos-ports/include]
+        ignore line: [ /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include]
+        ignore line: [ /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include-fixed]
+        ignore line: [ /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 532c93dd2972f8bfa57f7a2e77142e14]
+        ignore line: [COLLECT_GCC_OPTIONS='-O2' '-fomit-frame-pointer' '-fno-builtin' '-m4-single-only' '-ml' '-ffunction-sections' '-fdata-sections' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-Wall' '-g' '--sysroot=/opt/toolchains/dc/kos/../kos-ports' '-v' '-o' 'CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_b3d9d.dir/']
+        ignore line: [ /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/bin/as -v -I /opt/toolchains/dc/kos/include -I /opt/toolchains/dc/kos/kernel/arch/dreamcast/include -I /opt/toolchains/dc/kos/addons/include -I /opt/toolchains/dc/kos/../kos-ports/include -little --isa=sh4a -o CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj /tmp/ccCb0pN8.s]
+        ignore line: [GNU assembler version 2.43 (sh-elf) using BFD version (GNU Binutils) 2.43]
+        ignore line: [COMPILER_PATH=/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/bin/]
+        ignore line: [LIBRARY_PATH=/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-O2' '-fomit-frame-pointer' '-fno-builtin' '-m4-single-only' '-ml' '-ffunction-sections' '-fdata-sections' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-Wall' '-g' '--sysroot=/opt/toolchains/dc/kos/../kos-ports' '-v' '-o' 'CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports  -v CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj -o cmTC_b3d9d.elf   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/toolchains/dc/sh-elf/bin/sh-elf-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/lto-wrapper]
+        ignore line: [Target: sh-elf]
+        ignore line: [Configured with: ../gcc-14.2.0/configure --target=sh-elf --prefix=/opt/toolchains/dc/sh-elf --with-gnu-as --with-gnu-ld --with-newlib --disable-libssp --enable-threads=kos --enable-languages=c,c++,objc,obj-c++ --enable-checking=release --with-multilib-list=m4-single-only,m4-single --with-endian=little --with-cpu=m4-single-only MAKEINFO=missing CC=cc CXX=g++]
+        ignore line: [Thread model: kos]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/bin/]
+        ignore line: [LIBRARY_PATH=/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/:/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-O2' '-m4-single-only' '-ml' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-g' '-O2' '-fomit-frame-pointer' '-fno-builtin' '-m4-single-only' '-ml' '-ffunction-sections' '-fdata-sections' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-Wall' '-g' '-m4-single-only' '-ml' '-T' '/opt/toolchains/dc/kos/utils/ldscripts/shlelf.xc' '-nodefaultlibs' '-L/opt/toolchains/dc/kos/lib/dreamcast' '-L/opt/toolchains/dc/kos/addons/lib/dreamcast' '-L/opt/toolchains/dc/kos/../kos-ports/lib' '--sysroot=/opt/toolchains/dc/kos/../kos-ports' '-v' '-o' 'cmTC_b3d9d.elf' '-dumpdir' 'cmTC_b3d9d.elf.']
+        link line: [ /opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/collect2 -plugin /opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/liblto_plugin.so -plugin-opt=/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFInkhr.res --sysroot=/opt/toolchains/dc/kos/../kos-ports/m4-single-only -m shlelf -o cmTC_b3d9d.elf /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crt1.o /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crti.o /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtbegin.o -L/opt/toolchains/dc/kos/lib/dreamcast -L/opt/toolchains/dc/kos/addons/lib/dreamcast -L/opt/toolchains/dc/kos/../kos-ports/lib -L/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0 -L/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/lib -Ttext=0x8c010000 --gc-sections CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj --start-group -lkallisti -lm -lc -lgcc --end-group /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtend.o /opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtn.o -T /opt/toolchains/dc/kos/utils/ldscripts/shlelf.xc]
+          arg [/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/toolchains/dc/sh-elf/libexec/gcc/sh-elf/14.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccFInkhr.res] ==> ignore
+          arg [--sysroot=/opt/toolchains/dc/kos/../kos-ports/m4-single-only] ==> ignore
+          arg [-m] ==> ignore
+          arg [shlelf] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b3d9d.elf] ==> ignore
+          arg [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crt1.o] ==> obj [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crt1.o]
+          arg [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crti.o] ==> obj [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crti.o]
+          arg [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtbegin.o] ==> obj [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtbegin.o]
+          arg [-L/opt/toolchains/dc/kos/lib/dreamcast] ==> dir [/opt/toolchains/dc/kos/lib/dreamcast]
+          arg [-L/opt/toolchains/dc/kos/addons/lib/dreamcast] ==> dir [/opt/toolchains/dc/kos/addons/lib/dreamcast]
+          arg [-L/opt/toolchains/dc/kos/../kos-ports/lib] ==> dir [/opt/toolchains/dc/kos/../kos-ports/lib]
+          arg [-L/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0] ==> dir [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0]
+          arg [-L/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/lib] ==> dir [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/lib]
+          arg [-Ttext=0x8c010000] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [CMakeFiles/cmTC_b3d9d.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--start-group] ==> ignore
+          arg [-lkallisti] ==> lib [kallisti]
+          arg [-lm] ==> lib [m]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--end-group] ==> ignore
+          arg [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtend.o] ==> obj [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtend.o]
+          arg [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtn.o] ==> obj [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtn.o]
+          arg [-T] ==> ignore
+          arg [/opt/toolchains/dc/kos/utils/ldscripts/shlelf.xc] ==> ignore
+        ignore line: [COLLECT_GCC_OPTIONS='-O2' '-m4-single-only' '-ml' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-g' '-O2' '-fomit-frame-pointer' '-fno-builtin' '-m4-single-only' '-ml' '-ffunction-sections' '-fdata-sections' '-matomic-model=soft-imask' '-ftls-model=local-exec' '-D' '__DREAMCAST__' '-I' '/opt/toolchains/dc/kos/include' '-I' '/opt/toolchains/dc/kos/kernel/arch/dreamcast/include' '-I' '/opt/toolchains/dc/kos/addons/include' '-I' '/opt/toolchains/dc/kos/../kos-ports/include' '-D' '_arch_dreamcast' '-D' '_arch_sub_pristine' '-Wall' '-g' '-m4-single-only' '-ml' '-T' '/opt/toolchains/dc/kos/utils/ldscripts/shlelf.xc' '-nodefaultlibs' '-L/opt/toolchains/dc/kos/lib/dreamcast' '-L/opt/toolchains/dc/kos/addons/lib/dreamcast' '-L/opt/toolchains/dc/kos/../kos-ports/lib' '--sysroot=/opt/toolchains/dc/kos/../kos-ports' '-v' '-o' 'cmTC_b3d9d.elf' '-dumpdir' 'cmTC_b3d9d.elf.']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/opt/toolchains/dc/kos/lib/dreamcast] ==> [/opt/toolchains/dc/kos/lib/dreamcast]
+        collapse library dir [/opt/toolchains/dc/kos/addons/lib/dreamcast] ==> [/opt/toolchains/dc/kos/addons/lib/dreamcast]
+        collapse library dir [/opt/toolchains/dc/kos/../kos-ports/lib] ==> [/opt/toolchains/dc/kos-ports/lib]
+        collapse library dir [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0] ==> [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0]
+        collapse library dir [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/../../../../sh-elf/lib] ==> [/opt/toolchains/dc/sh-elf/sh-elf/lib]
+        implicit libs: [kallisti;m;c;gcc]
+        implicit objs: [/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crt1.o;/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crti.o;/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtbegin.o;/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtend.o;/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/crtn.o]
+        implicit dirs: [/opt/toolchains/dc/kos/lib/dreamcast;/opt/toolchains/dc/kos/addons/lib/dreamcast;/opt/toolchains/dc/kos-ports/lib;/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0;/opt/toolchains/dc/sh-elf/sh-elf/lib]
+        implicit fwks: []
+      
+      
+...

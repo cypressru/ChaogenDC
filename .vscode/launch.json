@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build and launch Flycast",
+            "type": "f5anything",
+            "request": "launch",
+            "command": "flycast build/ChaoGen.elf",
+            "preLaunchTask": "CMake: build"
+        }
+    ]
+}

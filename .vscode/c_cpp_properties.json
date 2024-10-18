@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/toolchains/dc/kos/include/**",
+                "/opt/toolchains/dc/kos/kernel/arch/dreamcast/include/**",
+                "/opt/toolchains/dc/kos-ports/include/**"
+            ],
+            "compilerPath": "/opt/toolchains/dc/sh-elf/bin/sh-elf-gcc",
+            "cStandard": "c23",
+            "intelliSenseMode": "linux-gcc-x64",
+            "defines": [
+                "false=0",
+                "true=1"
+            ]
+        }
+    ],
+    "version": 4
+}

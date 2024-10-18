@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "make",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "clear": true
+            }
+        },
+        {
+            "label": "Build and Launch Flycast",
+            "type": "shell",
+            "isBackground": true,
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "clear": true
+            },
+            "command": "make && flycast ${workspaceFolder}/ChaoGen.elf"
+        }
+    ]
+}

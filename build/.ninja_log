@@ -1,0 +1,26 @@
+# ninja log v6
+1	10	1729128711997617072	/home/cyp/Documents/GitHub/ChaogenDC/build/CMakeFiles/cmake.verify_globs	f842a9d581101c5e
+11	15	1729128711727602915	clean	a31eedcededa8236
+12	16	1729128712014284614	romdisk_tmp.c	c1f31059cdeb214c
+10	12	1729128712010951105	romdisk.img	75f5858ddbdafd5e
+10	12	1729128712010951105	/home/cyp/Documents/GitHub/ChaogenDC/build/romdisk.img	75f5858ddbdafd5e
+12	16	1729128712014284614	/home/cyp/Documents/GitHub/ChaogenDC/build/romdisk_tmp.c	c1f31059cdeb214c
+16	51	1729128712014284614	CMakeFiles/ChaoGen.dir/src/scenes/mainmenu.c.obj	8b0af46435c77748
+67	130	1729128712064287235	ChaoGen.elf	52643d48428e006a
+16	67	1729128712014284614	CMakeFiles/ChaoGen.dir/main.c.obj	2d14af65253e3f22
+16	36	1729128712014284614	CMakeFiles/ChaoGen.dir/src/ui.c.obj	6821ca46b543e7ee
+17	31	1729128712014284614	CMakeFiles/ChaoGen.dir/romdisk_tmp.c.obj	9de9e4be4e993dbe
+16	36	1729128712014284614	CMakeFiles/ChaoGen.dir/src/scene.c.obj	d330f2d09a973550
+1	9	1729129346618266914	/home/cyp/Documents/GitHub/ChaogenDC/build/CMakeFiles/cmake.verify_globs	f842a9d581101c5e
+9	13	1729129346628267448	clean	a31eedcededa8236
+1	10	1729129346724939267	/home/cyp/Documents/GitHub/ChaogenDC/build/CMakeFiles/cmake.verify_globs	f842a9d581101c5e
+10	13	1729129346734939800	romdisk.img	75f5858ddbdafd5e
+10	13	1729129346734939800	/home/cyp/Documents/GitHub/ChaogenDC/build/romdisk.img	75f5858ddbdafd5e
+13	15	1729129346738273311	romdisk_tmp.c	c1f31059cdeb214c
+13	15	1729129346738273311	/home/cyp/Documents/GitHub/ChaogenDC/build/romdisk_tmp.c	c1f31059cdeb214c
+16	30	1729129346741606823	CMakeFiles/ChaoGen.dir/romdisk_tmp.c.obj	9de9e4be4e993dbe
+16	32	1729129346738273311	CMakeFiles/ChaoGen.dir/src/scene.c.obj	d330f2d09a973550
+16	40	1729129346741606823	CMakeFiles/ChaoGen.dir/src/ui.c.obj	6821ca46b543e7ee
+15	49	1729129346738273311	CMakeFiles/ChaoGen.dir/src/scenes/mainmenu.c.obj	8b0af46435c77748
+15	60	1729129346738273311	CMakeFiles/ChaoGen.dir/main.c.obj	2d14af65253e3f22
+60	121	1729129346784942465	ChaoGen.elf	52643d48428e006a

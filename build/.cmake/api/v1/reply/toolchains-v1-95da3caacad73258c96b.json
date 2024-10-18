@@ -1,0 +1,54 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/toolchains/dc/kos/include",
+						"/opt/toolchains/dc/kos/kernel/arch/dreamcast/include",
+						"/opt/toolchains/dc/kos/addons/include",
+						"/opt/toolchains/dc/kos-ports/include",
+						"/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include",
+						"/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0/include-fixed",
+						"/opt/toolchains/dc/sh-elf/sh-elf/include"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/toolchains/dc/kos/lib/dreamcast",
+						"/opt/toolchains/dc/kos/addons/lib/dreamcast",
+						"/opt/toolchains/dc/kos-ports/lib",
+						"/opt/toolchains/dc/sh-elf/lib/gcc/sh-elf/14.2.0",
+						"/opt/toolchains/dc/sh-elf/sh-elf/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"kallisti",
+						"m",
+						"c",
+						"gcc"
+					]
+				},
+				"path" : "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc",
+				"version" : "14.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
