@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "ChaoGen",
+					"name" : "DreamDisc",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "ChaoGen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ChaoGen-0625a3de2007b4efaefb.json",
-					"name" : "ChaoGen",
+					"id" : "DreamDisc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DreamDisc-860a518ed58014fe0515.json",
+					"name" : "DreamDisc",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/cyp/Documents/GitHub/ChaogenDC/build",
-		"source" : "/home/cyp/Documents/GitHub/ChaogenDC"
+		"build" : "/home/cyp/Documents/GitHub/DREAMDISC/build",
+		"source" : "/home/cyp/Documents/GitHub/DREAMDISC"
 	},
 	"version" : 
 	{

@@ -15,36 +15,60 @@
 #include <arch/arch.h>
 
 #include <raylib.h>
-
+#include "src/save.h"
 #include "src/scene.h"
 #include "src/scenes/mainmenu.h"
+#include "src/scenes/game.h"
 #include "src/ui.h"
+#include "src/controller.h"
+
+
 
 #define screenWidth 640
 #define screenHeight 480
 
 #define CHAO_DATA 0x3000
 
+
+#define DebugExit
+
+
 void init(void) {
-    InitWindow(screenWidth, screenHeight, "ChaoGenDC");
+    InitWindow(screenWidth, screenHeight, "DREAMDISC");
     SetTargetFPS(60);
 }
 
 void update(void) {
+
     update_current_scene();
 }
 
 void draw(void) {
     BeginDrawing();
     draw_current_scene();
+
     EndDrawing();
 }
 
 
-int main(){
+int main(int argc, char **argv){
     init();
-    while(1)
+    for(; ;)
     {
+        #ifdef DebugExit
+        if(IsGamepadButtonDown(0, (GAMEPAD_BUTTON_MIDDLE_RIGHT))){
+            arch_exit();
+            
+        };
+        if(IsGamepadButtonDown(0, (GAMEPAD_BUTTON_RIGHT_FACE_UP))){
+            isSaving = 1;
+            
+        };
+        if(IsGamepadButtonReleased(0, (GAMEPAD_BUTTON_RIGHT_FACE_UP))){
+            isSaving = 0;
+            
+        };
+        #endif
         update();
         draw();
     };

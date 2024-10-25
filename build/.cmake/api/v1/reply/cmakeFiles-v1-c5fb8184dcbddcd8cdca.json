@@ -2,9 +2,15 @@
 	"globsDependent" : 
 	[
 		{
-			"expression" : "/home/cyp/Documents/GitHub/ChaogenDC/romdisk/*",
+			"expression" : "/home/cyp/Documents/GitHub/DREAMDISC/romdisk/*",
 			"listDirectories" : true,
-			"paths" : []
+			"paths" : 
+			[
+				"/home/cyp/Documents/GitHub/DREAMDISC/romdisk/chaoloadingtest.png",
+				"/home/cyp/Documents/GitHub/DREAMDISC/romdisk/exclaim.png",
+				"/home/cyp/Documents/GitHub/DREAMDISC/romdisk/test2.png",
+				"/home/cyp/Documents/GitHub/DREAMDISC/romdisk/vms"
+			]
 		}
 	],
 	"inputs" : 
@@ -439,8 +445,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/cyp/Documents/GitHub/ChaogenDC/build",
-		"source" : "/home/cyp/Documents/GitHub/ChaogenDC"
+		"build" : "/home/cyp/Documents/GitHub/DREAMDISC/build",
+		"source" : "/home/cyp/Documents/GitHub/DREAMDISC"
 	},
 	"version" : 
 	{

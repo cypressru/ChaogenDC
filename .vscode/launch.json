@@ -5,7 +5,14 @@
             "name": "Build and launch Flycast",
             "type": "f5anything",
             "request": "launch",
-            "command": "flycast build/ChaoGen.elf",
+            "command": "flycast build/DreamDisc.elf",
+            "preLaunchTask": "CMake: build"
+        },
+        {
+            "name": "Build&PushToDC",
+            "type": "f5anything",
+            "request": "launch",
+            "command": "dctool build/DreamDisc.elf",
             "preLaunchTask": "CMake: build"
         }
     ]

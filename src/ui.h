@@ -1,5 +1,5 @@
-#ifndef CHAOGEN_UI_H
-#define CHAOGEN_UI_H
+#ifndef DREAMDISC_UI_H
+#define DREAMDISC_UI_H
 
 #include <raylib.h>
 #include <stdint.h>
@@ -14,8 +14,15 @@ typedef struct UIButton {
     const uint8_t row;
     const uint8_t layers;
     const char    *text;
-    bool dropActive;
+
+
+    const int     uitype;
+    const char **items;
+    Texture2D texture;
     int itemCount;
+    int selectedItem;
+    bool dropActive;
+
 } uibutton_t;
 
 void move_cursor(char direction);
@@ -26,19 +33,23 @@ bool do_button(uibutton_t button, bool is_active);
 
 typedef struct DropdownMenu{
     Rectangle rect;
-    const char **items;
+    const char **items; 
     int itemCount;
     int selectedItem;
     bool active;
     Texture2D texture;
-} DropdownMenu;
+} uidropdown_t;
 
-// change the texture based on what's selected
-// maybe by changing a number on an array or sum
 
-// typedef struct MenuButtons { 
-//     UIButton type1;
-//     DropdownMenu type2;
-// } MenuButtons;
+
+typedef union ui
+{
+    uidropdown_t* Drop;
+    uibutton_t* Button;
+    
+} uielement_t;
+
+
+
 
 #endif
