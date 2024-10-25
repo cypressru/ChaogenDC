@@ -7,6 +7,13 @@
             "request": "launch",
             "command": "flycast build/ChaoGen.elf",
             "preLaunchTask": "CMake: build"
+        },
+        {
+            "name": "Build&PushToDC",
+            "type": "f5anything",
+            "request": "launch",
+            "command": "dctool build/ChaoGen.elf",
+            "preLaunchTask": "CMake: build"
         }
     ]
 }

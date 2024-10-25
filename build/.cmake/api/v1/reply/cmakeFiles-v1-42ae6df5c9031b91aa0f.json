@@ -2,7 +2,7 @@
 	"globsDependent" : 
 	[
 		{
-			"expression" : "/home/cyp/Documents/GitHub/ChaogenDC/romdisk/*",
+			"expression" : "/home/cyp/Documents/GitHub/DREAMDISC/romdisk/*",
 			"listDirectories" : true,
 			"paths" : []
 		}
@@ -439,8 +439,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/cyp/Documents/GitHub/ChaogenDC/build",
-		"source" : "/home/cyp/Documents/GitHub/ChaogenDC"
+		"build" : "/home/cyp/Documents/GitHub/DREAMDISC/build",
+		"source" : "/home/cyp/Documents/GitHub/DREAMDISC"
 	},
 	"version" : 
 	{

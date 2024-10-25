@@ -1,32 +1,62 @@
 [
 {
-  "directory": "/home/cyp/Documents/GitHub/ChaogenDC/build",
-  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/main.c.obj -c /home/cyp/Documents/GitHub/ChaogenDC/main.c",
-  "file": "/home/cyp/Documents/GitHub/ChaogenDC/main.c",
+  "directory": "/home/cyp/Documents/GitHub/DREAMDISC/build",
+  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/main.c.obj -c /home/cyp/Documents/GitHub/DREAMDISC/main.c",
+  "file": "/home/cyp/Documents/GitHub/DREAMDISC/main.c",
   "output": "CMakeFiles/ChaoGen.dir/main.c.obj"
 },
 {
-  "directory": "/home/cyp/Documents/GitHub/ChaogenDC/build",
-  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/src/scenes/mainmenu.c.obj -c /home/cyp/Documents/GitHub/ChaogenDC/src/scenes/mainmenu.c",
-  "file": "/home/cyp/Documents/GitHub/ChaogenDC/src/scenes/mainmenu.c",
+  "directory": "/home/cyp/Documents/GitHub/DREAMDISC/build",
+  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/src/scenes/mainmenu.c.obj -c /home/cyp/Documents/GitHub/DREAMDISC/src/scenes/mainmenu.c",
+  "file": "/home/cyp/Documents/GitHub/DREAMDISC/src/scenes/mainmenu.c",
   "output": "CMakeFiles/ChaoGen.dir/src/scenes/mainmenu.c.obj"
 },
 {
-  "directory": "/home/cyp/Documents/GitHub/ChaogenDC/build",
-  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/src/scene.c.obj -c /home/cyp/Documents/GitHub/ChaogenDC/src/scene.c",
-  "file": "/home/cyp/Documents/GitHub/ChaogenDC/src/scene.c",
+  "directory": "/home/cyp/Documents/GitHub/DREAMDISC/build",
+  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/src/scenes/sa1.c.obj -c /home/cyp/Documents/GitHub/DREAMDISC/src/scenes/sa1.c",
+  "file": "/home/cyp/Documents/GitHub/DREAMDISC/src/scenes/sa1.c",
+  "output": "CMakeFiles/ChaoGen.dir/src/scenes/sa1.c.obj"
+},
+{
+  "directory": "/home/cyp/Documents/GitHub/DREAMDISC/build",
+  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/src/scenes/game.c.obj -c /home/cyp/Documents/GitHub/DREAMDISC/src/scenes/game.c",
+  "file": "/home/cyp/Documents/GitHub/DREAMDISC/src/scenes/game.c",
+  "output": "CMakeFiles/ChaoGen.dir/src/scenes/game.c.obj"
+},
+{
+  "directory": "/home/cyp/Documents/GitHub/DREAMDISC/build",
+  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/src/controller.c.obj -c /home/cyp/Documents/GitHub/DREAMDISC/src/controller.c",
+  "file": "/home/cyp/Documents/GitHub/DREAMDISC/src/controller.c",
+  "output": "CMakeFiles/ChaoGen.dir/src/controller.c.obj"
+},
+{
+  "directory": "/home/cyp/Documents/GitHub/DREAMDISC/build",
+  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/src/save.c.obj -c /home/cyp/Documents/GitHub/DREAMDISC/src/save.c",
+  "file": "/home/cyp/Documents/GitHub/DREAMDISC/src/save.c",
+  "output": "CMakeFiles/ChaoGen.dir/src/save.c.obj"
+},
+{
+  "directory": "/home/cyp/Documents/GitHub/DREAMDISC/build",
+  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/src/scene.c.obj -c /home/cyp/Documents/GitHub/DREAMDISC/src/scene.c",
+  "file": "/home/cyp/Documents/GitHub/DREAMDISC/src/scene.c",
   "output": "CMakeFiles/ChaoGen.dir/src/scene.c.obj"
 },
 {
-  "directory": "/home/cyp/Documents/GitHub/ChaogenDC/build",
-  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/src/ui.c.obj -c /home/cyp/Documents/GitHub/ChaogenDC/src/ui.c",
-  "file": "/home/cyp/Documents/GitHub/ChaogenDC/src/ui.c",
+  "directory": "/home/cyp/Documents/GitHub/DREAMDISC/build",
+  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/src/ui.c.obj -c /home/cyp/Documents/GitHub/DREAMDISC/src/ui.c",
+  "file": "/home/cyp/Documents/GitHub/DREAMDISC/src/ui.c",
   "output": "CMakeFiles/ChaoGen.dir/src/ui.c.obj"
 },
 {
-  "directory": "/home/cyp/Documents/GitHub/ChaogenDC/build",
-  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/romdisk_tmp.c.obj -c /home/cyp/Documents/GitHub/ChaogenDC/build/romdisk_tmp.c",
-  "file": "/home/cyp/Documents/GitHub/ChaogenDC/build/romdisk_tmp.c",
+  "directory": "/home/cyp/Documents/GitHub/DREAMDISC/build",
+  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/src/background.c.obj -c /home/cyp/Documents/GitHub/DREAMDISC/src/background.c",
+  "file": "/home/cyp/Documents/GitHub/DREAMDISC/src/background.c",
+  "output": "CMakeFiles/ChaoGen.dir/src/background.c.obj"
+},
+{
+  "directory": "/home/cyp/Documents/GitHub/DREAMDISC/build",
+  "command": "/opt/toolchains/dc/kos/utils/build_wrappers/kos-cc --sysroot=/opt/toolchains/dc/kos/../kos-ports -I/opt/toolchains/dc/kos/../kos-ports/include/raylib -std=gnu2x -o CMakeFiles/ChaoGen.dir/romdisk_tmp.c.obj -c /home/cyp/Documents/GitHub/DREAMDISC/build/romdisk_tmp.c",
+  "file": "/home/cyp/Documents/GitHub/DREAMDISC/build/romdisk_tmp.c",
   "output": "CMakeFiles/ChaoGen.dir/romdisk_tmp.c.obj"
 }
 ]

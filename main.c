@@ -25,12 +25,19 @@
 
 #define CHAO_DATA 0x3000
 
+#define DEBUG_EXIT
+
 void init(void) {
     InitWindow(screenWidth, screenHeight, "ChaoGenDC");
     SetTargetFPS(60);
 }
 
 void update(void) {
+    #ifdef DEBUG_EXIT
+    if(IsGamepadButtonPressed(0, GAMEPAD_BUTTON_MIDDLE_RIGHT) && IsGamepadButtonPressed(0, GAMEPAD_BUTTON_RIGHT_FACE_DOWN)){
+        arch_exit();
+    }
+    #endif
     update_current_scene();
 }
 

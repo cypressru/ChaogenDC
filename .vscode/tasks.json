@@ -23,6 +23,18 @@
                 "clear": true
             },
             "command": "make && flycast ${workspaceFolder}/ChaoGen.elf"
+        },
+        {
+            "label": "Build&PushToDC",
+            "type": "shell",
+            "isBackground": true,
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "clear": true
+            },
+            "command": "make && dctool ChaoGen.elf"
         }
     ]
 }

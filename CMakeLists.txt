@@ -16,9 +16,13 @@ set(CMAKE_C_STANDARD 23)
 
 SET (SRCS main.c
     src/scenes/mainmenu.c
-    src/scenes/sa1.h
+    src/scenes/sa1.c
+    src/scenes/game.c
+    src/controller.c
+    src/save.c
     src/scene.c
     src/ui.c
+    src/background.c
 
 )
 
