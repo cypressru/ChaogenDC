@@ -22,19 +22,7 @@
             "presentation": {
                 "clear": true
             },
-            "command": "make && flycast ${workspaceFolder}/DreamDisc.elf"
-        },
-        {
-            "label": "Build&PushToDC",
-            "type": "shell",
-            "isBackground": true,
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "presentation": {
-                "clear": true
-            },
-            "command": "make && dctool DreamDisc.elf"
+            "command": "make && flycast ${workspaceFolder}/ChaoGen.elf"
         }
     ]
 }

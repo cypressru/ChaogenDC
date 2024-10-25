@@ -3,14 +3,10 @@
 cmake_policy(SET CMP0009 NEW)
 
 # romdiskFiles at /opt/toolchains/dc/kos/utils/cmake/dreamcast.cmake:81 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/cyp/Documents/GitHub/DREAMDISC/romdisk/*")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/cyp/Documents/GitHub/ChaogenDC/romdisk/*")
 set(OLD_GLOB
-  "/home/cyp/Documents/GitHub/DREAMDISC/romdisk/chaoloadingtest.png"
-  "/home/cyp/Documents/GitHub/DREAMDISC/romdisk/exclaim.png"
-  "/home/cyp/Documents/GitHub/DREAMDISC/romdisk/test2.png"
-  "/home/cyp/Documents/GitHub/DREAMDISC/romdisk/vms"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/cyp/Documents/GitHub/DREAMDISC/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/cyp/Documents/GitHub/ChaogenDC/build/CMakeFiles/cmake.verify_globs")
 endif()

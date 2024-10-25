@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/cyp/Documents/GitHub/DREAMDISC/build"
+			"value" : "/home/cyp/Documents/GitHub/ChaogenDC/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -399,7 +399,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/cyp/Documents/GitHub/DREAMDISC/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/cyp/Documents/GitHub/ChaogenDC/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -459,7 +459,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/cyp/Documents/GitHub/DREAMDISC"
+			"value" : "/home/cyp/Documents/GitHub/ChaogenDC"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "DreamDisc"
+			"value" : "ChaoGen"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -990,7 +990,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "DreamDisc_BINARY_DIR",
+			"name" : "ChaoGen_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -999,10 +999,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/cyp/Documents/GitHub/DREAMDISC/build"
+			"value" : "/home/cyp/Documents/GitHub/ChaogenDC/build"
 		},
 		{
-			"name" : "DreamDisc_IS_TOP_LEVEL",
+			"name" : "ChaoGen_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1014,7 +1014,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "DreamDisc_SOURCE_DIR",
+			"name" : "ChaoGen_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1023,7 +1023,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/cyp/Documents/GitHub/DREAMDISC"
+			"value" : "/home/cyp/Documents/GitHub/ChaogenDC"
 		}
 	],
 	"kind" : "cache",
